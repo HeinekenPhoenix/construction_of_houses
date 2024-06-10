@@ -1,0 +1,301 @@
+@import "./reset.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    box-sizing: border-box;
+    text-decoration:none;
+}
+
+body{
+    background-image: url(../images/background_home_page.jpeg);
+    background-repeat: no-repeat;
+    width: 1440px;
+    
+    
+}
+
+/*header_inner*/
+
+.header__inner-cont{
+    display: flex;
+    gap: 60px;
+    margin-top: 48px;
+    margin-left: 152px;
+
+}
+
+.logo__cont{
+    position: relative;
+    width: 210px;
+    height: 50px;
+    
+}
+
+.icon__logo{
+    position: absolute;
+}
+
+.name__logo-cont{
+    
+    position: absolute;
+    width: 197px;
+    height: 50px;
+    
+}
+
+.name__logo{
+    position: absolute;
+    color: rgb(229, 229, 230);
+    font-weight: 100;
+    left: 81px;
+    top: -5px;
+    
+}
+
+.descr__logo{
+    position: absolute;
+    color: rgb(144, 145, 149);
+    font-size: 9px;
+    font-weight: 400;
+    left: 81px;
+    top: 23px;
+}
+
+.review__cont{
+    position: relative;
+    width: 201px;
+}
+
+.review__rating-background{
+    position: absolute;
+    z-index: -1;
+    top: -48px;
+}
+
+.rewiew__rating{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20.19px;
+    top: -10px;
+    left: 10px;
+
+}
+
+.amount__stars-cont{
+    position: absolute;
+    top: -20px;
+    left: 60px;
+}
+
+.review__descr{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    left: 60px;
+}
+
+.calculator__email-cont{
+    position: relative;
+}
+
+.btn__calculator{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 12.68px;
+    border-radius: 4px;
+    background: rgb(132, 183, 61);
+    width: 237px;
+    height: 45px;
+    top: -20px;
+    cursor: pointer;
+}
+
+.icon__calculator{
+    position: absolute;
+    top: -7px;
+    left: 195px;
+}
+
+
+.icon__email{
+    position: absolute;
+    top: 35px;
+    left: 100px;
+}
+
+.dcsr__email{
+    position: absolute;
+    color: rgb(150, 152, 159);
+    top: 29px;
+    left: 120px;
+}
+
+.online__cont{
+    position: relative;
+    left: 200px;
+    top: -25px;
+
+}
+
+.online__img{
+    position: absolute;    
+    top: 10px;
+    left: 22px;
+}
+
+.dcsr__online{
+    position: absolute;
+    color: rgb(210, 211, 214);
+    top: -5px;
+    left: 7px;
+    width: 78px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.online__icon{
+    position: absolute;
+}
+
+.online__img{
+    position: absolute;
+    top: 10px;
+    left: 22px;
+}
+
+.call__cont{
+    position: relative;
+    top: -20px;
+    left: 250px;
+}
+
+.call__icon{
+    position: absolute;
+    top:-5px;
+}
+
+.call__schedule{
+    position: absolute;
+    color:rgb(210, 211, 214);
+    top: -7px;
+    left: 7px;
+    color: rgb(210, 211, 214);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 10.5px;
+}
+
+.call__number{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 17.79px;
+    position: relative;
+    top: 15px;
+}
+
+.back__call{
+    position: absolute;
+    color: rgb(135, 191, 60);
+    font-weight: 400;
+    line-height: 13.32px;
+    font-size: 17px;
+    top: 45px;
+}
+
+
+/*navigation*/
+
+.nav__cont{
+    display: flex;
+    gap: 48px;
+    margin-left: 152px;
+    margin-top: 52px;
+    
+}
+
+.nav{
+    color: rgb(251, 255, 255);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    
+}
+
+.cont__style{
+    display: flex;
+    gap: 4px;
+}
+
+.project__link--list{
+    position: relative;
+    top: 5px;
+}
+
+.nav__photo-link{
+    box-sizing: border-box;
+    border: 1px solid rgb(225, 164, 59);
+    border-radius: 14.5px;
+    width: 115px;
+    padding: 7px;
+    top: -7px;
+    position: relative;
+}
+
+.nav__search-input{
+    background: transparent;
+    border: none;
+}
+
+/*home page*/
+
+.home__page-cont{
+    margin-top: 86px;
+    margin-left: 152px;
+}
+
+.build__houses-descr{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 52px;
+}
+
+.guarantee__10years-descr{
+    margin-top: 15px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.build__calculator{
+    margin-top: 38px;
+    margin-bottom: 54px;
+    color: rgb(251, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 4px;
+    background: rgb(254, 170, 1);
+    width: 285px;
+    height: 60px;
+}
+
+.our__advantages-cont{
+    margin: 0; 
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 300;
+    display: flex;
+    gap:70px;
+    
+}
