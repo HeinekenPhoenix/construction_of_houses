@@ -1,0 +1,23 @@
+<svg width="32.583954" height="37.675232" viewBox="0 0 32.584 37.6752" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_18_12_dd" x="0.000000" y="0.000000" width="32.583954" height="37.675232" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="0"/>
+			<feGaussianBlur stdDeviation="2.71533"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0.51765 0 0 0 0 0.71765 0 0 0 0 0.23922 0 0 0 1 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+	</defs>
+	<g filter="url(#filter_18_12_dd)">
+		<path id="Vector 36" d="M21.36 17.29L21.38 17.31C21.38 17.88 20.93 18.32 20.36 18.32C19.79 18.32 19.34 17.88 19.34 17.31L19.36 17.29L21.36 17.29ZM13.21 17.29L13.23 17.31C13.23 17.88 12.78 18.32 12.21 18.32C11.64 18.32 11.2 17.88 11.2 17.31L11.22 17.29L13.21 17.29Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector 36" d="M20.36 17.31L20.36 13.23C20.36 10.98 18.54 9.16 16.29 9.16C14.04 9.16 12.21 10.98 12.21 13.23L12.21 17.31" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="2.036496" stroke-linejoin="round" stroke-linecap="round"/>
+		<rect id="Rectangle 25" x="8.145996" y="17.310242" rx="2.036496" width="16.291971" height="12.218978" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<path id="Union" d="M16.292 20.3651C15.1672 20.3651 14.2555 21.2768 14.2555 22.4015C14.2555 23.2883 14.8223 24.0427 15.6133 24.3221L15.6133 26.4744L16.9709 26.4744L16.9709 24.322C17.7618 24.0424 18.3284 23.2881 18.3284 22.4015C18.3284 21.2768 17.4167 20.3651 16.292 20.3651Z" clip-rule="evenodd" fill="#678C3A" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>

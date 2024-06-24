@@ -2,21 +2,25 @@
 @import "./normalize.css";
 
 body {
-  background-image: url(../images/background_home_page.jpeg);
+  background-image: url(../images/background/background_home_page.jpeg);
   background-repeat: no-repeat;
-  max-width: 1440px;
-  margin: 0 auto;
+  width: 100%;
 }
 
+.primary-font-weight-SemiBold {
+  font-weight: 600;
+}
 /*header_start*/
 
+.header{
+  margin-left: 120px;
+}
 /*header_inner*/
 
 .header-inner-cont {
   display: flex;
-  gap: 50px;
+  gap: 40px;
   margin-top: 48px;
-  margin-left: 152px;
   max-width: 1124px;
   flex-wrap: wrap;
 }
@@ -33,18 +37,18 @@ body {
   height: 35px;
 }
 
-.name-logo-cont {
+.header-logo-name-cont {
   display: flex;
   flex-direction: column;
   gap: 9px;
 }
 
-.name-logo-cont__name__logo {
+.name-logo-cont__name-logo {
   color: rgb(229, 229, 230);
   font-weight: 100;
 }
 
-.name-logo-cont__descr__logo {
+.name-logo-cont__descr-logo {
   color: rgb(144, 145, 149);
   font-size: 9px;
   font-weight: 400;
@@ -62,7 +66,7 @@ body {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-weight: 400;
-  background-image: url(../images/background_review_rating.png);
+  background-image: url(../images/background/background_review_rating.png);
   width: 47px;
   height: 100px;
   background-repeat: no-repeat;
@@ -72,7 +76,7 @@ body {
   margin-top: -48px;
 }
 
-.review-cont-right{
+.review-cont-right {
   width: 142px;
   display: flex;
   flex-direction: column;
@@ -80,12 +84,12 @@ body {
 
 }
 
-.rewiew-cont-amount-stars-cont {
+.amount-stars-cont {
   display: flex;
   gap: 5px;
 }
 
-.review-cont-right__amount__stars {
+.amount-stars-cont__img-stars {
   width: 12px;
   height: 12px;
 }
@@ -93,7 +97,7 @@ body {
 .review-cont-right__descr {
   color: rgb(255, 255, 255);
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 13px;
 }
 
@@ -134,7 +138,7 @@ body {
   justify-content:end;
 }
 
-.calculator-email__dscr {
+.calculator-email-cont__dscr {
   color: rgb(150, 152, 159);
 }
 
@@ -158,14 +162,14 @@ body {
   height: 4px;
 }
 
-.online-dscr-cont__dcsr__online {
+.online-dscr-cont__dcsr {
   color: rgb(210, 211, 214);
   width: 78px;
   font-size: 12px;
   font-weight: 300;
 }
 
-.header-online-cont_img {
+.online-cont__img {
   width: 38px;
   height: 38px;
 }
@@ -184,19 +188,19 @@ body {
   align-items: center;
 }
 
-.call-icon-dscr-cont__call__icon {
+.call-icon-dscr-cont__call-icon {
   width: 4px;
   height: 4px;
 }
 
-.call-icon-dscr__call__schedule {
+.call-icon-dscr__call-schedule {
   color: rgb(210, 211, 214);
   font-size: 12px;
   font-weight: 300;
   line-height: 10.5px;
 }
 
-.call-cont__call__number {
+.call-cont__call-number {
   color: rgb(255, 255, 255);
   font-size: 25px;
   font-weight: 400;
@@ -204,7 +208,7 @@ body {
  
 }
 
-.call-cont__back__call {
+.call-cont__back-call {
   color: rgb(135, 191, 60);
   font-weight: 400;
   line-height: 13.32px;
@@ -216,20 +220,19 @@ body {
 .header-nav-cont {
   display: flex;
   gap: 48px;
-  margin-left: 152px;
   margin-top: 52px;
   max-width: 1124px;
   flex-wrap: wrap;
 }
 
-.nav-cont__text__decoration {
+.nav-cont__text-decoration {
   color: rgb(251, 255, 255);
   text-decoration: none;
   font-size: 16px;
   font-weight: 300;
 }
 
-.nav-cont__style{
+.nav-cont-style{
   display: flex;
   gap: 5px;
 }
@@ -239,7 +242,7 @@ body {
   height: 2.5px;
 }
 
-.nav-cont__photo__link {
+.nav-cont__photo-link {
   box-sizing: border-box;
   border: 1px solid rgb(225, 164, 59);
   border-radius: 14.5px;
@@ -249,12 +252,12 @@ body {
   bottom: 5px;
 }
 
-.nav-cont__favorite__icon {
+.nav-cont__favorite-icon {
   width: 16px;
   height: 12.5px;
 }
 
-.nav-cont__find__icon {
+.nav-cont__find-icon {
   width: 13.5px;
   height: 13.5px;
 }
@@ -273,28 +276,40 @@ body {
 
 /*main_start*/
 
+
 /*home_page_start*/
 
 .home-page-cont {
   margin-top: 85px;
-  margin-left: 152px;
+  height: 512px;
+  margin-left: 120px;
 }
 
-.main-descr__build__houses__descr {
+.home-page-cont__background-wood-img{
+  filter: blur(8px);
+  width: 553px;
+  height: 500px;
+  position: absolute;
+  left: -365px;
+  top: 139px;
+  transform: rotate(+150deg);
+}
+
+.main-descr-cont__build-houses-descr {
   color: rgb(255, 255, 255);
   font-size: 48px;
   font-weight: 400;
   line-height: 52px;
 }
 
-.main-descr__guarantee__ten__years__descr {
+.main-descr-cont__guarantee-ten-years-descr {
   margin-top: 15px;
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-weight: 400;
 }
 
-.home-page-cont__build__calculator {
+.home-page-cont__build-calculator {
   margin-top: 38px;
   color: rgb(251, 255, 255);
   font-size: 16px;
@@ -313,6 +328,269 @@ body {
   font-weight: 300;
   display: flex;
   gap: 70px;
+  flex-wrap: wrap;
 }
 
 /*home_page_end*/
+
+/*project-calculator_start*/
+
+/*project-calculator_left-start*/
+
+
+
+.project-calculator {
+  background-color: rgb(245, 246, 250);
+  position: relative;
+  display: flex;
+  justify-content: center;  
+}
+
+.project-calculator-cont__background-wood-img{
+  filter: blur(8px);
+  width: 553px;
+  height: 500px;
+  position: absolute;
+  left: 851px;
+  top: -197px;
+  transform: rotate(+70deg);
+}
+
+.project-calculator-cont {
+  background-color: rgb(255, 255, 255);;
+  border-radius: 4.97px 4.97px 99.46px 4.97px;
+  box-shadow: 0px 0px 89.52px 0px rgb(202, 202, 202);
+  width: 1021px;
+  height: 701px;
+  position: absolute;
+  margin-top: -30px;
+  display: flex;
+  
+}
+
+.calculator-cont-left {
+  width: 595px;
+  margin-left: 80px;
+}
+
+.calculator-left__dscr {
+  color: rgb(45, 45, 47);
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-top: 63px;
+}
+
+.calculator-left__dscr--two {
+  margin-left: 40px;
+}
+
+.calculator-left__dscr--three {
+  font-weight: 400;
+}
+
+.calculator-left-question-cont {
+  margin-top: 92px;
+  margin-left: 80px;
+  display: flex;
+  gap: 17px;
+}
+
+.question-cont__dscr-number {
+  color: rgb(113, 106, 107);
+  font-size: 20.07px;
+  font-weight: 300;
+  border-radius: 6.11px;
+  background: rgb(239, 243, 247);
+  width: 31px;
+  height: 29px;
+  padding: 5px;
+}
+
+.question-cont__descr {
+  color: rgb(38, 36, 37);
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.calculator-left-house-sauna-img-cont {
+  margin-top: 35px;
+  display: flex;
+  gap: 29px;
+}
+
+.house-sauna-img-cont {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 33px;
+}
+
+.house-sauna-img-cont__house-img {
+  width: 256px;
+  height: 230px;
+}
+
+.house-sauna-accept__icon {
+  position: absolute;
+  top: 205px;
+  left: 105px;
+}
+
+.house-img-cont-sauna__dscr {
+  color: rgb(85, 80, 80);
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.project-calculator-choose-cont {
+  display: flex;
+  margin-top: 48px;
+  gap: 180px;
+  align-items: baseline;
+}
+
+.calculator-choose-information-cont {
+  display: flex;
+  gap: 5px;
+}
+
+.choose-information-cont__icon-cursor-pointer {
+  width: 19px;
+  height: 14px;
+}
+
+.choose-information-cont__dscr {
+  color: rgb(119, 119, 121);
+  font-size: 11px;
+  font-weight: 400;
+}
+
+.choose-information-cont__dscr--thick {
+  font-weight: 600;
+}
+
+.choose-informationt-btn-cont{
+  position: relative;
+
+}
+
+.choose-information-cont__btn {
+  color: rgb(253, 253, 250);
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 2px;
+  background: rgb(254, 170, 1);
+  width: 139px;
+  height: 47px;
+}
+
+.choose-information-cont__btn-img--one{
+  position: absolute;
+  right: 38px;
+  top: 20px;
+}
+
+
+.choose-information-cont__btn-img--two{
+  position: absolute;
+  right: 42px;
+  top: 20px;
+}
+
+/*project-calculator_start_left_end*/
+
+
+/*project-calculator_right_start*/
+
+.calculator-cont-right {
+  border-radius: 61px 0px 99px 0px;
+  background-color: rgb(245, 246, 250);
+  width: 346px;
+  height: 639px;
+  margin-top: 63px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calculator-cont-right__man-name {
+  color: rgb(39, 38, 39);
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.calculator-cont-right__man-dscr {
+  color: rgb(160, 158, 161);
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+
+.calculator-cont-right__bonus-dscr {
+  color: rgb(75, 71, 71);
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 26px;
+}
+
+.calculator-cont-right-benefit-cont{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 21px;
+}
+
+.benefit-cont{
+  width: 251px;
+  height: 67px;
+  border-radius: 33px 0px 33px 0px;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  gap: 13px;
+  align-items: center;
+  padding-left: 24px;
+}
+
+.bonus-cont{
+  background: rgb(255, 255, 255);
+  width: 251px;
+  height: 67px;
+  border-radius: 33px 0px 33px 0px;
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding-left: 24px;
+}
+
+.bonus-cont__dscr{
+  color: rgb(75, 71, 71);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.bonus-cont-dscr-percent-cont{
+  display: flex;
+}
+
+.bonus-cont__dscr-one{
+  color: rgb(245, 186, 65);
+  font-size: 41px;
+  font-weight: 700;
+}
+
+.bonus-cont__dscr-percent{
+  color: rgb(245, 186, 65);
+  font-size: 23px;
+  font-weight: 500;
+}
+
+
+.price-cont__dscr{
+  color: rgb(243, 243, 243);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+}
