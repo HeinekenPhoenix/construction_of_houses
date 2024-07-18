@@ -1,28 +1,42 @@
 @import "./reset.css";
 @import "./normalize.css";
+@import "./fonts.css";
 
-body {
+body{
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
   background-image: url(../images/background/background_home_page.jpeg);
+  background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .primary-font-weight-SemiBold {
   font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+.title-h2{
+  color: rgb(45, 45, 47);
+  font-family: "Roboto", sans-serif;
+  font-size: 47px;
+  font-weight: 400;
+  text-align: center;
 }
 /*header_start*/
 
 .header{
-  margin-left: 120px;
+  margin-left: 150px;
+  margin-top: 48px;
 }
 /*header_inner*/
 
 .header-inner-cont {
   display: flex;
   gap: 40px;
-  margin-top: 48px;
-  max-width: 1124px;
-  flex-wrap: wrap;
 }
 
 /*header_logo*/
@@ -46,12 +60,14 @@ body {
 .name-logo-cont__name-logo {
   color: rgb(229, 229, 230);
   font-weight: 100;
+  font-family: "Roboto", sans-serif;
 }
 
 .name-logo-cont__descr-logo {
   color: rgb(144, 145, 149);
   font-size: 9px;
   font-weight: 400;
+  font-family: "Roboto", sans-serif;
   line-height: 10px;
 }
 
@@ -66,6 +82,7 @@ body {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-weight: 400;
+  font-family: "Roboto", sans-serif;
   background-image: url(../images/background/background_review_rating.png);
   width: 47px;
   height: 100px;
@@ -98,6 +115,7 @@ body {
   color: rgb(255, 255, 255);
   font-size: 12px;
   font-weight: 300;
+  font-family: "Roboto", sans-serif;
   line-height: 13px;
 }
 
@@ -117,7 +135,8 @@ body {
 .calculator-cont__btn {
   color: rgb(255, 255, 255);
   font-size: 12px;
-  font-weight: 200;
+  font-weight: 300;
+  font-family: "Roboto", sans-serif;
   line-height: 12.68px;
   border-radius: 4px;
   background: rgb(132, 183, 61);
@@ -167,6 +186,7 @@ body {
   width: 78px;
   font-size: 12px;
   font-weight: 300;
+  font-family: "Roboto", sans-serif;
 }
 
 .online-cont__img {
@@ -197,6 +217,7 @@ body {
   color: rgb(210, 211, 214);
   font-size: 12px;
   font-weight: 300;
+  font-family: "Roboto", sans-serif;
   line-height: 10.5px;
 }
 
@@ -204,6 +225,7 @@ body {
   color: rgb(255, 255, 255);
   font-size: 25px;
   font-weight: 400;
+  font-family: "Roboto", sans-serif;
   line-height: 17.79px;
  
 }
@@ -211,6 +233,7 @@ body {
 .call-cont__back-call {
   color: rgb(135, 191, 60);
   font-weight: 400;
+  font-family: "Roboto", sans-serif;
   line-height: 13.32px;
   font-size: 17px;
 }
@@ -221,7 +244,6 @@ body {
   display: flex;
   gap: 48px;
   margin-top: 52px;
-  max-width: 1124px;
   flex-wrap: wrap;
 }
 
@@ -230,6 +252,14 @@ body {
   text-decoration: none;
   font-size: 16px;
   font-weight: 300;
+  font-family: "Roboto", sans-serif;
+  padding: 5px;
+}
+
+.nav-cont__text-decoration:hover {
+  box-sizing: border-box;
+  border: 1px solid rgb(225, 164, 59);
+  border-radius: 14.5px;
 }
 
 .nav-cont-style{
@@ -240,16 +270,6 @@ body {
 .header-nav-cont__icon{
   width: 5.5px;
   height: 2.5px;
-}
-
-.nav-cont__photo-link {
-  box-sizing: border-box;
-  border: 1px solid rgb(225, 164, 59);
-  border-radius: 14.5px;
-  width: 115px;
-  padding: 5px;
-  position: relative;
-  bottom: 5px;
 }
 
 .nav-cont__favorite-icon {
@@ -270,6 +290,7 @@ body {
   text-decoration: none;
   font-size: 16px;
   font-weight: 300;
+  font-family: "Roboto", sans-serif;
 }
 
 /*header_end*/
@@ -277,16 +298,16 @@ body {
 /*main_start*/
 
 
+
 /*home_page_start*/
 
 .home-page-cont {
   margin-top: 85px;
   height: 512px;
-  margin-left: 120px;
+  margin-left: 150px;
 }
 
 .home-page-cont__background-wood-img{
-  filter: blur(8px);
   width: 553px;
   height: 500px;
   position: absolute;
@@ -299,6 +320,7 @@ body {
   color: rgb(255, 255, 255);
   font-size: 48px;
   font-weight: 400;
+  font-family: "Roboto", sans-serif;
   line-height: 52px;
 }
 
@@ -307,6 +329,7 @@ body {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-weight: 400;
+  font-family: "Roboto", sans-serif;
 }
 
 .home-page-cont__build-calculator {
@@ -314,6 +337,7 @@ body {
   color: rgb(251, 255, 255);
   font-size: 16px;
   font-weight: 700;
+  font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   border-radius: 4px;
   background: rgb(254, 170, 1);
@@ -326,6 +350,7 @@ body {
   color: rgb(255, 255, 255);
   font-size: 14px;
   font-weight: 300;
+  font-family: "Roboto", sans-serif;
   display: flex;
   gap: 70px;
   flex-wrap: wrap;
@@ -341,18 +366,18 @@ body {
 
 .project-calculator {
   background-color: rgb(245, 246, 250);
+  
   position: relative;
   display: flex;
   justify-content: center;  
 }
 
 .project-calculator-cont__background-wood-img{
-  filter: blur(8px);
-  width: 553px;
-  height: 500px;
+  width: 800px;
+  height: 800px;
   position: absolute;
-  left: 851px;
-  top: -197px;
+  left: 65vw;
+  top: -299px;
   transform: rotate(+70deg);
 }
 
@@ -362,7 +387,6 @@ body {
   box-shadow: 0px 0px 89.52px 0px rgb(202, 202, 202);
   width: 1021px;
   height: 701px;
-  position: absolute;
   margin-top: -30px;
   display: flex;
   
@@ -377,6 +401,7 @@ body {
   color: rgb(45, 45, 47);
   font-size: 36px;
   font-weight: 400;
+  font-family: "Roboto", sans-serif;
   line-height: 36px;
   margin-top: 63px;
 }
@@ -387,6 +412,7 @@ body {
 
 .calculator-left__dscr--three {
   font-weight: 400;
+  font-family: "Roboto", sans-serif;
 }
 
 .calculator-left-question-cont {
@@ -400,6 +426,7 @@ body {
   color: rgb(113, 106, 107);
   font-size: 20.07px;
   font-weight: 300;
+  font-family: "Roboto", sans-serif;
   border-radius: 6.11px;
   background: rgb(239, 243, 247);
   width: 31px;
@@ -411,6 +438,7 @@ body {
   color: rgb(38, 36, 37);
   font-size: 25px;
   font-weight: 600;
+  font-family: "Roboto", sans-serif;
 }
 
 .calculator-left-house-sauna-img-cont {
@@ -441,7 +469,8 @@ body {
 .house-img-cont-sauna__dscr {
   color: rgb(85, 80, 80);
   font-size: 19px;
-  font-weight: 600;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
 }
 
 .project-calculator-choose-cont {
@@ -465,10 +494,12 @@ body {
   color: rgb(119, 119, 121);
   font-size: 11px;
   font-weight: 400;
+  font-family: "Roboto", sans-serif;
 }
 
 .choose-information-cont__dscr--thick {
-  font-weight: 600;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
 }
 
 .choose-informationt-btn-cont{
@@ -479,7 +510,8 @@ body {
 .choose-information-cont__btn {
   color: rgb(253, 253, 250);
   font-size: 15px;
-  font-weight: 600;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
   border-radius: 2px;
   background: rgb(254, 170, 1);
   width: 139px;
@@ -518,13 +550,15 @@ body {
 .calculator-cont-right__man-name {
   color: rgb(39, 38, 39);
   font-size: 25px;
-  font-weight: 600;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
 }
 
 .calculator-cont-right__man-dscr {
   color: rgb(160, 158, 161);
   font-size: 13px;
   font-weight: 400;
+  font-family: "Roboto", sans-serif;
   margin-top: 16px;
 }
 
@@ -532,6 +566,7 @@ body {
   color: rgb(75, 71, 71);
   font-size: 16px;
   font-weight: 400;
+  font-family: "Roboto", sans-serif;
   margin-top: 26px;
 }
 
@@ -568,6 +603,7 @@ body {
   color: rgb(75, 71, 71);
   font-size: 14px;
   font-weight: 400;
+  font-family: "Roboto", sans-serif;
   line-height: 14px;
 }
 
@@ -579,12 +615,14 @@ body {
   color: rgb(245, 186, 65);
   font-size: 41px;
   font-weight: 700;
+  font-family: "Roboto", sans-serif;
 }
 
 .bonus-cont__dscr-percent{
   color: rgb(245, 186, 65);
   font-size: 23px;
   font-weight: 500;
+  font-family: "Roboto", sans-serif;
 }
 
 
@@ -592,5 +630,720 @@ body {
   color: rgb(243, 243, 243);
   font-size: 14px;
   font-weight: 400;
+  font-family: "Roboto", sans-serif;
   line-height: 14px;
 }
+
+/*examples-wood-house-sauna-start*/
+
+.examples-wood-house-sauna{
+  background-color: rgb(245, 246, 250);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+
+.examples-wood-house-sauna__title{
+  margin-top: 136px;
+}
+
+.examples-wood-house-sauna-cont{
+  display: grid;
+  grid-template-columns: repeat(3,350px);
+  grid-template-rows: repeat(3,161px);
+  grid-gap: 31px;
+
+}
+
+.examples-wood-house-sauna-cont__card-first{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  background: url(../images/background/examples-wood-house-sauna-cont__card-first-background.png);
+  padding-top: 45px;
+  padding-left: 44px;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+.card-big-title-cont {
+  display: flex;
+  gap: 20px;
+}
+
+.card-big-title-cont__title{
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+}
+
+.examples-wood-house-sauna-cont__card-dscr{
+  border-radius: 12.5px;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+  font-size: 9px;
+  font-weight: 600;
+  width: 76px;
+  height: 25px;
+  text-align: center;
+  padding-top: 9px;
+}
+
+.card-big-price-cont{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card-big-price-cont__dscr{
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.card-big-price-cont__dscr--strong{
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+}
+
+.card-big-price-cont__btn{
+  color: rgb(252, 252, 254);
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 4px;
+  background: rgb(115, 185, 24);
+  width: 159px;
+  height: 40px;
+}
+
+.examples-wood-house-sauna-cont__card-second{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background: url(../images/background/examples-wood-house-sauna-cont__card-second-background.png);
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  padding-left: 44px;
+  padding-top: 29px;
+}
+
+.card-small-title-cont--second{
+  display: flex;
+  gap: 45px;
+}
+
+.card-small-title-cont__title{
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.card-small-price-cont{
+  display: flex;
+  gap: 13px;
+}
+
+.card-small-price-cont__btn{
+  border-radius: 3px;
+  background: rgb(115, 185, 24);
+  width: 132px;
+  height: 33px;
+  color: rgb(252, 252, 254);
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.card-small-price-cont__dscr{
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.card-small-price-cont__dscr--strong{
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.examples-wood-house-sauna-cont__card-third{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background: url(../images/background/examples-wood-house-sauna-cont__card-third-background.png);
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  padding-left: 40px;
+  padding-top: 29px;
+}
+
+.card-small-title-cont--third{
+  display: flex;
+  gap: 91px;
+}
+
+.examples-wood-house-sauna-cont__card-fourth{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  background: url(../images/background/examples-wood-house-sauna-cont__card-fourth-background.png);
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  padding-left: 40px;
+  padding-top: 29px;
+}
+
+.examples-wood-house-sauna-cont__card-fifth{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  background: url(../images/background/examples-wood-house-sauna-cont__card-fifth-background.png);
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  padding-left: 40px;
+  padding-top: 29px;
+}
+
+.card-small-title-cont--fifth{
+  display: flex;
+  gap: 68px;
+}
+
+.examples-wood-house-sauna-cont__card-sixth{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  background: url(../images/background/examples-wood-house-sauna-cont__card-fifth-background.png);
+  display: flex;
+  flex-direction: column;
+  gap: 29px;
+  padding-left: 40px;
+  padding-top: 29px;
+}
+
+.card-small-title-cont--fifth{
+  display: flex;
+  gap: 68px;
+}
+
+.examples-wood-house-sauna-cont__card-seventh{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  background: url(../images/background/examples-wood-house-sauna-cont__card-first-background.png);
+  padding-top: 45px;
+  padding-left: 44px;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+.popular-project-of-houses{
+  background-color: rgb(245, 246, 250);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.popular-project-of-houses__title{
+  margin-top: 143px;
+}
+
+.popular-project-of-houses-cont{
+  display: grid;
+  margin-top: 101px;
+  grid-template-columns: repeat(3,350px);
+  grid-template-rows: repeat(2,505px);
+  grid-gap: 28px;
+}
+
+.popular-project-of-houses-cont-card{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border-radius: 14px;
+}
+
+.popular-project-of-houses-cont-card-inner{
+  padding-left: 31px;
+}
+
+.popular-project-of-houses-cont-card-inner__title{
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+  font-size: 29px;
+  font-weight: 700;
+  margin-top: 28px;
+}
+
+.popular-project-of-houses-cont-card-inner-dscr-top{
+  margin-top: 16px;
+  display: flex;
+  gap: 38px;
+}
+
+.style-inner-dscr{
+  color: rgb(122, 125, 129);
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 600
+}
+
+.popular-project-of-houses-cont-card-inner-dscr-top__acreage::before{
+  content: "Площадь: ";
+}
+
+.popular-project-of-houses-cont-card-inner-dscr-top__costruction-period::before{
+  content: "Срок стройки: ";
+}
+
+.popular-project-of-houses-cont-card-inner-dscr-bottom{
+  margin-top: 9px;
+  display: flex;
+  gap: 54px;
+}
+
+.popular-project-of-houses-cont-card-inner-dscr-bottom__size::before{
+  content: "Размеры: ";
+}
+
+.popular-project-of-houses-cont-card-inner-dscr-bottom__rooms::before{
+  content: "Комнат:  ";
+}
+
+.popular-project-of-houses-card-type-house-cont{
+  margin-top: 31px;
+  display: flex;
+  gap: 137px;
+}
+
+.popular-project-of-houses-card-type-house-cont__title{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.popular-project-of-houses-card-type-house-cont__title::before{
+  content: "";
+  background-color: rgb(133, 180, 64);
+  width: 5px;
+  height: 5px;
+  left: -10px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.popular-project-of-houses-card-type-house-cont__type{
+  color: rgb(92, 95, 102);
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.popular-project-of-houses-card-cost-house-cont{
+  margin-top: 22px;
+  display: flex;
+  gap: 10px;
+}
+
+.popular-project-of-houses-card-cost-house-cont__title{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.popular-project-of-houses-card-cost-house-cont__title::before{
+  content: "";
+  background-color: rgb(133, 180, 64);
+  width: 5px;
+  height: 5px;
+  left: -10px;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.popular-project-of-houses-card-cost-house-cont__cost{
+  color: rgb(92, 95, 102);
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.popular-project-of-houses-card-cost-house-cont__cost--big-gold{
+  color: rgb(115, 185, 24);
+  font-family: "Roboto", sans-serif;
+  font-size: 31.58px;
+  font-weight: 700;
+}
+
+.popular-project-of-houses-card-btn-plane-house-cont{
+  margin-top: 25px;
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.popular-project-of-houses-card-btn-plane-house-cont__btn{
+  color: rgb(252, 252, 254);
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 5px;
+  background: rgb(254, 170, 1);
+  width: 182px;
+  height: 40px;
+}
+
+
+.popular-project-of-houses-card-btn-plane-house-cont__dscr{
+  color: rgb(184, 184, 186);
+  font-family: "Roboto", sans-serif;
+  font-size: 9px;
+  font-weight: 400;
+  position: relative;
+}
+
+.popular-project-of-houses-card-btn-plane-house-cont__dscr::before{
+  content: url(../images/popular-project-of-houses-card-btn-plane-house-cont__dscr-before.svg);
+  position: absolute;
+  left: -15px;
+}
+
+
+@media screen and (max-width: 2500px) {
+  .header-inner-cont{
+    gap: 7%;
+  }
+
+  .header-nav-cont{
+    gap: 5%;
+  }
+  
+}
+
+@media screen and (max-width: 1420px) {
+  .header-inner-cont{
+    gap: 2%;
+  }
+
+  .header-nav-cont{
+    gap: 3%;
+  }
+  
+}
+
+@media screen and (max-width: 1200px) {
+  .header{
+    margin-left: 50px;
+  }
+
+  .home-page-cont{
+    margin-left: 50px;
+  }
+
+  .header-inner-cont{
+    gap: 10px;
+  }
+
+  .header-nav-cont{
+    gap: 3%;
+  }
+  
+  .examples-wood-house-sauna-cont{
+    grid-gap: 10px;
+  }
+
+  .popular-project-of-houses-cont{
+    grid-gap: 10px;
+  }
+
+  .project-calculator-cont__background-wood-img{
+    left: 72vw;
+  }
+
+  .home-page-cont__background-wood-img{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .header{
+    margin-left: 25px;
+  }
+
+  .home-page-cont{
+    margin-left: 25px;
+  }
+
+  .project-calculator-cont{
+    width: 938px;
+
+  }
+
+  .calculator-cont-left{
+    margin-left: 30px;
+  }
+
+  .examples-wood-house-sauna-cont{
+    grid-template-columns: repeat(3, 325px);
+  }
+
+  .examples-wood-house-sauna-cont__card-first{
+    padding-top: 25px;
+    padding-left: 25px;
+  }
+
+  .examples-wood-house-sauna-cont__card-sixth{
+    padding-left: 25px;
+    padding-top: 25px;
+  }
+
+  .popular-project-of-houses-cont {
+    grid-template-columns: repeat(3, 330px);
+  }
+}
+
+@media screen and (max-width: 1015px){
+  .header-inner-cont{
+    gap: 5%;
+  }
+
+  .header-nav-cont {
+    gap: 15px;
+  }
+
+  .review-cont__rating{
+    display: none;
+  }
+
+  .online-dscr-cont{
+    display: none;
+  }
+
+  .online-cont__img{
+    display: none;
+  }
+
+  .review-cont-right{
+    display: none;
+  }
+
+  .examples-wood-house-sauna-cont {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .examples-wood-house-sauna__title{
+    margin-top: 50px;
+  }
+
+  .popular-project-of-houses-cont{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .popular-project-of-houses__title{
+    margin-top: 50px;
+  }
+
+  .popular-project-of-houses-cont {
+    margin-top: 50px;
+  }
+
+  .project-calculator-cont__background-wood-img{
+    display: none;
+  }
+
+  .project-calculator-cont__background-wood-img{
+    width: 900px;
+  }
+
+  .calculator-cont-left{
+    margin-left: 15px;
+  }
+
+  .calculator-cont-left{
+    font-size:30px;
+  }
+}
+
+@media screen and (max-width: 940px){
+  .calculator-left__dscr{
+    margin-top: 30px;
+  }
+
+  .calculator-left-question-cont{
+    margin-top: 30px;
+    margin-left: 0;
+  }
+
+  .project-calculator-cont{
+    display: flex;
+    flex-direction: column;
+    height: 1253px;
+    border-radius: 0;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    align-items: center;
+  }
+
+  .calculator-cont-right{
+    margin-top: 10px;
+  }
+
+  .title-h2{
+    padding: 20px;
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 910px){
+  .header-nav-cont{
+    display: none;
+  }
+  .header-inner-cont{
+    gap: 3%;
+  }
+
+  .home-page-advantages-cont{
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 800px){
+  .header-inner-cont{
+    gap: 5px;
+  }
+
+  .home-page-advantages-cont{
+    gap: 15px;
+  }
+}
+
+@media screen and (max-width: 730px){
+  .header-inner-cont{
+    gap: 8%;
+  }
+  .header-calculator-email-cont{
+    display: none;
+  }
+  .home-page-advantages-cont{
+    display: none;
+  }
+
+  .home-page-cont{
+    margin-top: 45px;
+    height: 360px;
+  }
+}
+
+@media screen and (max-width: 620px){
+  .calculator-left-house-sauna-img-cont{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project-calculator-choose-cont{
+    gap: 50px;
+    justify-content: center;
+  }
+
+  .project-calculator-cont{
+    height: 1510px;
+  }
+
+  .house-sauna-accept__icon{
+    left: auto;
+  }
+
+  .calculator-left-question-cont{
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 590px){
+  .header-inner-cont{
+    gap: 20px;
+  }
+  
+  .calculator-cont-left{
+    width: 400px;
+  }
+
+  .calculator-left__dscr{
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 520px){
+  .header-inner-cont{
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 485px){
+  .header{
+    margin-left: 15px;
+  }
+
+  .home-page-cont{
+    margin-left: 15px;
+  }
+
+  .header-inner-cont{
+    gap: 3px;
+  }
+
+  .main-descr-cont__build-houses-descr{
+    font-size:35px;
+    line-height: 40px;
+  }
+
+  .project-calculator-choose-cont {
+    gap:15px;
+  }
+}
+
+@media screen and (max-width: 445px){
+  .call-cont__call-number{
+    font-size: 19px;
+  }
+
+  .call-icon-dscr-cont{
+    gap: 3px;
+  }
+
+  .call-icon-dscr__call-schedule{
+    font-size: 10px;
+  }
+
+  .call-cont__back-call{
+    font-size: 12px;
+  }
+}
+
